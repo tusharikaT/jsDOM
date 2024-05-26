@@ -54,3 +54,13 @@ lim.innerText='Geometry box';
 //const pitle=document.getElementById('main-heading');
 //console.log(pitle.getAttribute('id'));
 
+//lim.classList.add('list-items');
+lim.classList.remove('list-items');
+
+console.log(lim.classList.contains('list-items')) //false
+
+//to remove an element
+
+lim.remove();
+
+//Manipulation basicsend here.
