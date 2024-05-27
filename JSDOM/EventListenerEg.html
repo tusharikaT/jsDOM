@@ -6,25 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .boxes {
-            display: inline-block;
-            vertical-align: top;
+        
+       .container {
+            display:flex;           
+            border: 2px solid black;
         }
 
         .hidden-content {
-            display: none; /* Hidden by default */
+           display:none;
+        }
+        .show-content{
+            display: block;
         }
 
     </style>
 </head>
 <body>
     <h1 id="main-heading">Event Listeners</h1>
+    <div class="container">
     <button class="reveal-btn boxes"> Reveal More</button>
-    <br>
-    <br>
-    <div class="hidden-content boxes">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+    <div class="hidden-content boxes ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
          Earum culpa minima officiis nesciunt ad. Reiciendis modi minima omnis perferendis? 
             Quod voluptates eius veniam ad velit dolorum corrupti? 
         Dolor rem debitis accusantium qui deserunt totam, doloremque dolore laudantium iure beatae ad.</div>
+    </div>
 </body>
+<script src="EventListenerPractise.js"></script>
 </html>
